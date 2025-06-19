@@ -1,0 +1,17 @@
+<form #formRef="ngForm" (ngSubmit)="enviarCorreo(formRef)" @fadeIn>
+  <mat-form-field class="full-width">
+    <input matInput placeholder="Nombre" name="name" ngModel required>
+  </mat-form-field>
+
+  <mat-form-field class="full-width">
+    <input matInput placeholder="Correo electrónico" name="email" ngModel required email>
+  </mat-form-field>
+
+  <mat-form-field class="full-width">
+    <textarea matInput placeholder="Mensaje" name="message" ngModel required></textarea>
+  </mat-form-field>
+
+  <input type="hidden" name="title" [value]="'Nuevo mensaje de portafolio'">
+
+  <button mat-raised-button color="accent" type="submit">Enviar</button>
+</form>

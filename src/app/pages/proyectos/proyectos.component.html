@@ -1,0 +1,14 @@
+<section class="proyectos" @fadeIn>
+  <h2>Proyectos</h2>
+
+  <mat-card *ngFor="let p of proyectos" class="proyecto-card">
+    <mat-card-title>{{ p.nombre }}</mat-card-title>
+    <mat-card-content>
+      <p>{{ p.descripcion }}</p>
+      <p><strong>Tecnologías:</strong> {{ p.tecnologias.join(', ') }}</p>
+    </mat-card-content>
+    <mat-card-actions>
+      <a mat-button color="primary" [href]="p.repositorio" target="_blank">Ver repositorio</a>
+    </mat-card-actions>
+  </mat-card>
+</section>
