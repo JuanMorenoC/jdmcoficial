@@ -25,16 +25,16 @@ export interface Proyecto {
 export class ProyectosComponent {
   proyectos: Proyecto[] = [
     {
-      nombre: 'ReactTrace',
-      descripcion: 'Sistema para trazabilidad y gestión de reactivos de laboratorio.',
-      tecnologias: ['Python', 'Flask', 'PostgreSQL', 'React'],
-      repositorio: 'https://github.com/jdmcoficial/reacttrace'
+      nombre: 'Clinica Dental Alameda (Frontend)',
+      descripcion: 'Sistema para trazabilidad y gestión de citas de odontología de la clinica',
+      tecnologias: ['Angular', 'Angular Material'],
+      repositorio: 'https://github.com/JuanMorenoC/clinica-dental-alameda-front'
     },
     {
-      nombre: 'APPIS',
-      descripcion: 'Sistema de evaluación de calidad de miel y trazabilidad apícola.',
-      tecnologias: ['Spring Boot', 'MongoDB', 'React', 'Structurizr'],
-      repositorio: 'https://github.com/jdmcoficial/appis'
+      nombre: 'Clinica Dental Alameda (Backend)',
+      descripcion: 'Sistema para trazabilidad y gestión de citas de odontología de la clinica',
+      tecnologias: ['Spring Boot', 'MySQL'],
+      repositorio: 'https://github.com/JuanMorenoC/clinica-alameda-backend'
     }
   ];
 }
