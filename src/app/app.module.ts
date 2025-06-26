@@ -64,6 +64,10 @@ export class AppModule {
       'instagram',
       domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/instagram.svg')
     );
+    matIconRegistry.addSvgIcon(
+      'github',
+      domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/github.svg')
+    );
   }
 }
 

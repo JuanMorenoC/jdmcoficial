@@ -1,32 +1,25 @@
-<form #formRef="ngForm" (ngSubmit)="enviarCorreo(formRef)" @fadeIn>
-  <mat-form-field class="full-width">
-    <input matInput placeholder="Nombre" name="name" ngModel required>
-  </mat-form-field>
+<section class="contacto" @fadeIn>
+  <img src="assets/img/perfil.jpg" alt="Foto de perfil de Juan David" class="foto-perfil" />
 
-  <mat-form-field class="full-width">
-    <input matInput placeholder="Correo electrónico" name="email" ngModel required email>
-  </mat-form-field>
-
-  <mat-form-field class="full-width">
-    <textarea matInput placeholder="Mensaje" name="message" ngModel required></textarea>
-  </mat-form-field>
-
-  <input type="hidden" name="title" [value]="'Nuevo mensaje de portafolio'">
-
-  <button mat-raised-button color="accent" type="submit">Enviar</button>
-</form>
-<section class="redes-sociales" @fadeIn>
-  <h2>Redes Sociales</h2>
+  <div class="descripcion">
+    <h2>¡Hola! Soy Juan David Moreno, Desarrollador de Software</h2>
+    <p>
+      Aquí puedes encontrar información sobre mis proyectos y conocimientos en Angular, Spring Boot, Java y más.
+    </p>
+  </div>
 
   <div class="iconos-redes">
+    <a href="https://www.instagram.com/juanmoreno7380?igsh=N3kxb2xpOW0xY3Vx" target="_blank" aria-label="Instagram">
+      <mat-icon svgIcon="instagram"></mat-icon>
+    </a>
     <a href="https://www.linkedin.com/in/juan-david-moreno-cifuentes-2a165521a/" target="_blank" aria-label="LinkedIn">
       <mat-icon svgIcon="linkedin"></mat-icon>
     </a>
     <a href="https://x.com/JuanNebraska?t=5WodrWcCpp7GQEIt4MdVUQ&s=08" target="_blank" aria-label="Twitter">
       <mat-icon svgIcon="twitter"></mat-icon>
     </a>
-    <a href="https://www.instagram.com/juanmoreno7380?igsh=N3kxb2xpOW0xY3Vx" target="_blank" aria-label="Instagram">
-      <mat-icon svgIcon="instagram"></mat-icon>
+    <a href="https://github.com/JuanMorenoC" target="_blank" aria-label="GitHub">
+      <mat-icon svgIcon="github"></mat-icon>
     </a>
   </div>
 </section>
