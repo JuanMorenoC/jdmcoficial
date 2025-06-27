@@ -17,6 +17,7 @@ git push origin master
 Copiar
 Editar
 ng build --configuration production --base-href "https://TU_USUARIO.github.io/jdmcoficial/"
+ng build --configuration production --base-href "https://JuanMorenoC.github.io/jdmcoficial/"
 
 ---
 
