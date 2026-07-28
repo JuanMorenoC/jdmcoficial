@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 import { trigger, transition, style, animate } from '@angular/animations';
 
 export interface Proyecto {
@@ -21,6 +21,7 @@ export interface Proyecto {
             ])
         ])
     ],
+    changeDetection: ChangeDetectionStrategy.Eager,
     standalone: false
 })
 export class ProyectosComponent {

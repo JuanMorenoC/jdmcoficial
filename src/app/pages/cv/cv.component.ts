@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 import { trigger, transition, style, animate } from '@angular/animations';
 
 @Component({
@@ -13,6 +13,7 @@ import { trigger, transition, style, animate } from '@angular/animations';
             ])
         ])
     ],
+    changeDetection: ChangeDetectionStrategy.Eager,
     standalone: false
 })
 export class CvComponent {
