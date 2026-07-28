@@ -10,17 +10,18 @@ export interface Proyecto {
 }
 
 @Component({
-  selector: 'app-proyectos',
-  templateUrl: './proyectos.component.html',
-  styleUrls: ['./proyectos.component.scss'],
-  animations: [
-    trigger('fadeIn', [
-      transition(':enter', [
-        style({ opacity: 0, transform: 'translateY(30px)' }),
-        animate('500ms ease-out', style({ opacity: 1, transform: 'translateY(0)' }))
-      ])
-    ])
-  ]
+    selector: 'app-proyectos',
+    templateUrl: './proyectos.component.html',
+    styleUrls: ['./proyectos.component.scss'],
+    animations: [
+        trigger('fadeIn', [
+            transition(':enter', [
+                style({ opacity: 0, transform: 'translateY(30px)' }),
+                animate('500ms ease-out', style({ opacity: 1, transform: 'translateY(0)' }))
+            ])
+        ])
+    ],
+    standalone: false
 })
 export class ProyectosComponent {
   proyectos: Proyecto[] = [
