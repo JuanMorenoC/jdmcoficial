@@ -43,3 +43,6 @@ Thumbs.db
 
 # Ignorar variables de entorno de Angular
 src/environments/
+
+# ignorar texto
+BORRADOR.txt
