@@ -22,6 +22,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { DomSanitizer } from '@angular/platform-browser';
 import { MatIconRegistry } from '@angular/material/icon';
+import { MatExpansionModule } from '@angular/material/expansion';
 
 @NgModule({ declarations: [
         AppComponent,
@@ -42,7 +43,8 @@ import { MatIconRegistry } from '@angular/material/icon';
         MatButtonModule,
         MatToolbarModule,
         MatSnackBarModule,
-        MatIconModule], providers: [provideHttpClient(withXhr(), withInterceptorsFromDi())] })
+        MatIconModule,
+        MatExpansionModule], providers: [provideHttpClient(withXhr(), withInterceptorsFromDi())] })
 export class AppModule {
   constructor(matIconRegistry: MatIconRegistry, domSanitizer: DomSanitizer) {
     matIconRegistry.addSvgIcon(

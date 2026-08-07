@@ -8,8 +8,27 @@
     text-align: center;
   }
 
-  .proyecto-card {
-    margin-bottom: 20px;
-    text-align: justify;
+  .proyecto-panel {
+    margin-bottom: 16px;
+    border-radius: 4px;
+
+    mat-panel-title {
+      font-size: 1.05rem;
+      color: #1a237e;
+    }
+
+    .proyecto-contenido {
+      text-align: justify;
+      padding-top: 10px;
+
+      p {
+        line-height: 1.6;
+      }
+
+      .acciones {
+        margin-top: 15px;
+        text-align: left;
+      }
+    }
   }
 }

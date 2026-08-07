@@ -1,16 +1,28 @@
 <section class="proyectos" @fadeIn>
   <h2>Proyectos</h2>
 
-  @for (p of proyectos; track p) {
-    <mat-card class="proyecto-card">
-      <mat-card-title>{{ p.nombre }}</mat-card-title>
-      <mat-card-content>
-        <p>{{ p.descripcion }}</p>
-        <p><strong>Tecnologías:</strong> {{ p.tecnologias.join(', ') }}</p>
-      </mat-card-content>
-      <mat-card-actions>
-        <a mat-button color="primary" [href]="p.repositorio" target="_blank">Ver repositorio</a>
-      </mat-card-actions>
-    </mat-card>
-  }
+  <mat-accordion multi="false">
+    @for (p of proyectos; track p.nombre) {
+      <mat-expansion-panel class="proyecto-panel">
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            <strong>{{ p.nombre }}</strong>
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+
+        <div class="proyecto-contenido">
+          <p>{{ p.descripcion }}</p>
+          <p><strong>Tecnologías:</strong> {{ p.tecnologias.join(', ') }}</p>
+
+          @if (p.repositorio) {
+            <div class="acciones">
+              <a mat-button color="primary" [href]="p.repositorio" target="_blank">
+                Ver repositorio
+              </a>
+            </div>
+          }
+        </div>
+      </mat-expansion-panel>
+    }
+  </mat-accordion>
 </section>
