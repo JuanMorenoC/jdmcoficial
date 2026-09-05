@@ -1,0 +1,34 @@
+[
+  {
+    "Segmento_KM":"Clientes Leales",
+    "total_clientes":1465,
+    "recencia_promedio":227.87,
+    "frecuencia_promedio":5.1,
+    "monetario_promedio":2002.1,
+    "monetario_total":2933080.1299999999
+  },
+  {
+    "Segmento_KM":"En Riesgo \/ Prometedores",
+    "total_clientes":1251,
+    "recencia_promedio":28.44,
+    "frecuencia_promedio":3.04,
+    "monetario_promedio":865.11,
+    "monetario_total":1082252.45
+  },
+  {
+    "Segmento_KM":"Inactivos",
+    "total_clientes":1974,
+    "recencia_promedio":395.86,
+    "frecuencia_promedio":1.38,
+    "monetario_promedio":325.75,
+    "monetario_total":643026.91
+  },
+  {
+    "Segmento_KM":"VIP \/ Campeones",
+    "total_clientes":1188,
+    "recencia_promedio":27.43,
+    "frecuencia_promedio":19.34,
+    "monetario_promedio":11014.37,
+    "monetario_total":13085069.6899999995
+  }
+]
