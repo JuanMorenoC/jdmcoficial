@@ -21,6 +21,11 @@
               </a>
             </div>
           }
+          @if (p.demo) {
+            <a mat-stroked-button color="accent" [routerLink]="p.demo">
+              Ver Análisis Interactivo
+            </a>
+          }
         </div>
       </mat-expansion-panel>
     }

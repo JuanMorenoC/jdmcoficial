@@ -1,0 +1,63 @@
+<section class="rfm-container">
+  <div class="header-nav">
+    <a mat-button routerLink="/proyectos">← Volver a Proyectos</a>
+    <h2>Segmentación RFM y K-Means Clustering</h2>
+  </div>
+
+  <div class="cards-grid">
+    @for (s of resumen; track s.Segmento_KM) {
+      <mat-card class="segment-card">
+        <mat-card-header>
+          <mat-card-title>{{ s.Segmento_KM }}</mat-card-title>
+          <mat-card-subtitle>{{ s.total_clientes }} Clientes</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+          <p><strong>Recencia promedio:</strong> {{ s.recencia_promedio }} días</p>
+          <p><strong>Frecuencia promedio:</strong> {{ s.frecuencia_promedio }} compras</p>
+          <p><strong>Ticket promedio:</strong> ${{ s.monetario_promedio | number:'1.0-2' }}</p>
+          <p><strong>Ingreso total:</strong> ${{ s.monetario_total | number:'1.0-0' }}</p>
+        </mat-card-content>
+      </mat-card>
+    }
+  </div>
+
+  <div class="table-section">
+    <h3>Muestra representativa de clientes</h3>
+    <mat-form-field appearance="outline" class="buscador">
+      <mat-label>Filtrar por ID o Segmento</mat-label>
+      <input matInput [(ngModel)]="filtroTexto" placeholder="Ej. VIP o 12346">
+    </mat-form-field>
+
+    <table class="rfm-table">
+      <thead>
+        <tr>
+          <th>Customer ID</th>
+          <th>Recencia (Días)</th>
+          <th>Frecuencia (Pedidos)</th>
+          <th>Total Gastado ($)</th>
+          <th>Segmento Asignado</th>
+        </tr>
+      </thead>
+      <tbody>
+        @for (c of muestraFiltrada; track c.CustomerID) {
+          <tr>
+            <td>{{ c.CustomerID }}</td>
+            <td>{{ c.Recency }}</td>
+            <td>{{ c.Frequency }}</td>
+            <td>${{ c.Monetary | number:'1.2-2' }}</td>
+            <td>
+                <span class="badge" [ngClass]="{
+                    'vip': c.Segmento_KM.includes('VIP'),
+                    'leales': c.Segmento_KM.includes('Leales'),
+                    'riesgo': c.Segmento_KM.includes('Riesgo'),
+                    'inactivos': c.Segmento_KM.includes('Inactivos')
+                }">
+                    {{ c.Segmento_KM }}
+                </span>
+            </td>
+          </tr>
+        }
+      </tbody>
+    </table>
+  </div>
+</section>

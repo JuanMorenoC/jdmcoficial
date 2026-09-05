@@ -6,6 +6,7 @@ import { SobreMiComponent } from './pages/sobre-mi/sobre-mi.component';
 import { ProyectosComponent } from './pages/proyectos/proyectos.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
 import { CvComponent } from './pages/cv/cv.component';
+import { SegmentacionRfmComponent } from './pages/segmentacion-rfm/segmentacion-rfm.component';
 
 const routes: Routes = [
   { path: '', component: InicioComponent },
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'proyectos', component: ProyectosComponent },
   { path: 'contacto', component: ContactoComponent },
   { path: 'cv', component: CvComponent },
+  { path: 'segmentacion-rfm', component: SegmentacionRfmComponent },
   { path: '**', redirectTo: '' }
 ];
 

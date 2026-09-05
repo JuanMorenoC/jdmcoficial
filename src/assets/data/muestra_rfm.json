@@ -1,0 +1,702 @@
+[
+  {
+    "CustomerID":12346,
+    "Recency":326,
+    "Frequency":12,
+    "Monetary":77556.46,
+    "Segmento_KM":"VIP \/ Campeones"
+  },
+  {
+    "CustomerID":12347,
+    "Recency":2,
+    "Frequency":8,
+    "Monetary":5633.32,
+    "Segmento_KM":"VIP \/ Campeones"
+  },
+  {
+    "CustomerID":12348,
+    "Recency":75,
+    "Frequency":5,
+    "Monetary":2019.4,
+    "Segmento_KM":"Clientes Leales"
+  },
+  {
+    "CustomerID":12349,
+    "Recency":19,
+    "Frequency":4,
+    "Monetary":4428.69,
+    "Segmento_KM":"En Riesgo \/ Prometedores"
+  },
+  {
+    "CustomerID":12350,
+    "Recency":310,
+    "Frequency":1,
+    "Monetary":334.4,
+    "Segmento_KM":"Inactivos"
+  },
+  {
+    "CustomerID":12351,
+    "Recency":375,
+    "Frequency":1,
+    "Monetary":300.93,
+    "Segmento_KM":"Inactivos"
+  },
+  {
+    "CustomerID":12352,
+    "Recency":36,
+    "Frequency":10,
+    "Monetary":2849.84,
+    "Segmento_KM":"VIP \/ Campeones"
+  },
+  {
+    "CustomerID":12353,
+    "Recency":204,
+    "Frequency":2,
+    "Monetary":406.76,
+    "Segmento_KM":"Inactivos"
+  },
+  {
+    "CustomerID":12354,
+    "Recency":232,
+    "Frequency":1,
+    "Monetary":1079.4,
+    "Segmento_KM":"Inactivos"
+  },
+  {
+    "CustomerID":12355,
+    "Recency":214,
+    "Frequency":2,
+    "Monetary":947.61,
+    "Segmento_KM":"Clientes Leales"
+  },
+  {
+    "CustomerID":12356,
+    "Recency":23,
+    "Frequency":6,
+    "Monetary":6373.68,
+    "Segmento_KM":"VIP \/ Campeones"
+  },
+  {
+    "CustomerID":12357,
+    "Recency":33,
+    "Frequency":3,
+    "Monetary":18287.66,
+    "Segmento_KM":"VIP \/ Campeones"
+  },
+  {
+    "CustomerID":12358,
+    "Recency":2,
+    "Frequency":5,
+    "Monetary":3887.07,
+    "Segmento_KM":"VIP \/ Campeones"
+  },
+  {
+    "CustomerID":12359,
+    "Recency":58,
+    "Frequency":10,
+    "Monetary":8935.94,
+    "Segmento_KM":"VIP \/ Campeones"
+  },
+  {
+    "CustomerID":12360,
+    "Recency":52,
+    "Frequency":8,
+    "Monetary":4252.89,
+    "Segmento_KM":"VIP \/ Campeones"
+  },
+  {
+    "CustomerID":12361,
+    "Recency":287,
+    "Frequency":4,
+    "Monetary":511.25,
+    "Segmento_KM":"Clientes Leales"
+  },
+  {
+    "CustomerID":12362,
+    "Recency":3,
+    "Frequency":11,
+    "Monetary":5356.23,
+    "Segmento_KM":"VIP \/ Campeones"
+  },
+  {
+    "CustomerID":12363,
+    "Recency":110,
+    "Frequency":2,
+    "Monetary":552.0,
+    "Segmento_KM":"Inactivos"
+  },
+  {
+    "CustomerID":12364,
+    "Recency":8,
+    "Frequency":4,
+    "Monetary":1313.1,
+    "Segmento_KM":"En Riesgo \/ Prometedores"
+  },
+  {
+    "CustomerID":12365,
+    "Recency":291,
+    "Frequency":2,
+    "Monetary":641.38,
+    "Segmento_KM":"Inactivos"
+  },
+  {
+    "CustomerID":12366,
+    "Recency":634,
+    "Frequency":1,
+    "Monetary":500.24,
+    "Segmento_KM":"Inactivos"
+  },
+  {
+    "CustomerID":12367,
+    "Recency":4,
+    "Frequency":1,
+    "Monetary":168.9,
+    "Segmento_KM":"En Riesgo \/ Prometedores"
+  },
+  {
+    "CustomerID":12368,
+    "Recency":628,
+    "Frequency":1,
+    "Monetary":917.7,
+    "Segmento_KM":"Inactivos"
+  },
+  {
+    "CustomerID":12369,
+    "Recency":413,
+    "Frequency":3,
+    "Monetary":1791.15,
+    "Segmento_KM":"Clientes Leales"
+  },
+  {
+    "CustomerID":12370,
+    "Recency":51,
+    "Frequency":7,
+    "Monetary":4320.31,
+    "Segmento_KM":"Clientes Leales"
+  },
+  {
+    "CustomerID":12371,
+    "Recency":45,
+    "Frequency":5,
+    "Monetary":4067.38,
+    "Segmento_KM":"Clientes Leales"
+  },
+  {
+    "CustomerID":12372,
+    "Recency":72,
+    "Frequency":3,
+    "Monetary":1298.04,
+    "Segmento_KM":"Clientes Leales"
+  },
+  {
+    "CustomerID":12373,
+    "Recency":311,
+    "Frequency":3,
+    "Monetary":1127.65,
+    "Segmento_KM":"Clientes Leales"
+  },
+  {
+    "CustomerID":12374,
+    "Recency":25,
+    "Frequency":4,
+    "Monetary":2989.22,
+    "Segmento_KM":"En Riesgo \/ Prometedores"
+  },
+  {
+    "CustomerID":12375,
+    "Recency":11,
+    "Frequency":2,
+    "Monetary":457.5,
+    "Segmento_KM":"En Riesgo \/ Prometedores"
+  },
+  {
+    "CustomerID":12376,
+    "Recency":390,
+    "Frequency":2,
+    "Monetary":503.15,
+    "Segmento_KM":"Inactivos"
+  },
+  {
+    "CustomerID":12377,
+    "Recency":315,
+    "Frequency":4,
+    "Monetary":3426.32,
+    "Segmento_KM":"Clientes Leales"
+  },
+  {
+    "CustomerID":12378,
+    "Recency":130,
+    "Frequency":2,
+    "Monetary":5416.32,
+    "Segmento_KM":"Clientes Leales"
+  },
+  {
+    "CustomerID":12379,
+    "Recency":82,
+    "Frequency":4,
+    "Monetary":1620.22,
+    "Segmento_KM":"Clientes Leales"
+  },
+  {
+    "CustomerID":12380,
+    "Recency":22,
+    "Frequency":11,
+    "Monetary":9676.3,
+    "Segmento_KM":"VIP \/ Campeones"
+  },
+  {
+    "CustomerID":12381,
+    "Recency":5,
+    "Frequency":5,
+    "Monetary":1845.31,
+    "Segmento_KM":"En Riesgo \/ Prometedores"
+  },
+  {
+    "CustomerID":12383,
+    "Recency":185,
+    "Frequency":5,
+    "Monetary":1850.56,
+    "Segmento_KM":"Clientes Leales"
+  },
+  {
+    "CustomerID":12384,
+    "Recency":29,
+    "Frequency":2,
+    "Monetary":585.27,
+    "Segmento_KM":"En Riesgo \/ Prometedores"
+  },
+  {
+    "CustomerID":12385,
+    "Recency":379,
+    "Frequency":1,
+    "Monetary":1938.4,
+    "Segmento_KM":"Clientes Leales"
+  },
+  {
+    "CustomerID":12386,
+    "Recency":338,
+    "Frequency":2,
+    "Monetary":660.8,
+    "Segmento_KM":"Inactivos"
+  },
+  {
+    "CustomerID":12387,
+    "Recency":415,
+    "Frequency":1,
+    "Monetary":143.94,
+    "Segmento_KM":"Inactivos"
+  },
+  {
+    "CustomerID":12388,
+    "Recency":16,
+    "Frequency":8,
+    "Monetary":3901.11,
+    "Segmento_KM":"VIP \/ Campeones"
+  },
+  {
+    "CustomerID":12389,
+    "Recency":403,
+    "Frequency":3,
+    "Monetary":1433.33,
+    "Segmento_KM":"Clientes Leales"
+  },
+  {
+    "CustomerID":12390,
+    "Recency":80,
+    "Frequency":1,
+    "Monetary":549.84,
+    "Segmento_KM":"Inactivos"
+  },
+  {
+    "CustomerID":12391,
+    "Recency":22,
+    "Frequency":6,
+    "Monetary":2773.42,
+    "Segmento_KM":"VIP \/ Campeones"
+  },
+  {
+    "CustomerID":12392,
+    "Recency":591,
+    "Frequency":1,
+    "Monetary":234.75,
+    "Segmento_KM":"Inactivos"
+  },
+  {
+    "CustomerID":12393,
+    "Recency":72,
+    "Frequency":6,
+    "Monetary":2399.45,
+    "Segmento_KM":"Clientes Leales"
+  },
+  {
+    "CustomerID":12394,
+    "Recency":64,
+    "Frequency":2,
+    "Monetary":1272.48,
+    "Segmento_KM":"En Riesgo \/ Prometedores"
+  },
+  {
+    "CustomerID":12395,
+    "Recency":19,
+    "Frequency":15,
+    "Monetary":5067.27,
+    "Segmento_KM":"VIP \/ Campeones"
+  },
+  {
+    "CustomerID":12396,
+    "Recency":674,
+    "Frequency":1,
+    "Monetary":931.43,
+    "Segmento_KM":"Inactivos"
+  },
+  {
+    "CustomerID":12397,
+    "Recency":36,
+    "Frequency":2,
+    "Monetary":2409.9,
+    "Segmento_KM":"En Riesgo \/ Prometedores"
+  },
+  {
+    "CustomerID":12398,
+    "Recency":46,
+    "Frequency":1,
+    "Monetary":1635.66,
+    "Segmento_KM":"En Riesgo \/ Prometedores"
+  },
+  {
+    "CustomerID":12399,
+    "Recency":119,
+    "Frequency":7,
+    "Monetary":1962.3,
+    "Segmento_KM":"Clientes Leales"
+  },
+  {
+    "CustomerID":12400,
+    "Recency":414,
+    "Frequency":1,
+    "Monetary":205.25,
+    "Segmento_KM":"Inactivos"
+  },
+  {
+    "CustomerID":12401,
+    "Recency":303,
+    "Frequency":1,
+    "Monetary":84.3,
+    "Segmento_KM":"Inactivos"
+  },
+  {
+    "CustomerID":12402,
+    "Recency":323,
+    "Frequency":6,
+    "Monetary":1256.9,
+    "Segmento_KM":"Clientes Leales"
+  },
+  {
+    "CustomerID":12403,
+    "Recency":50,
+    "Frequency":2,
+    "Monetary":1019.36,
+    "Segmento_KM":"En Riesgo \/ Prometedores"
+  },
+  {
+    "CustomerID":12404,
+    "Recency":682,
+    "Frequency":1,
+    "Monetary":63.24,
+    "Segmento_KM":"Inactivos"
+  },
+  {
+    "CustomerID":12405,
+    "Recency":149,
+    "Frequency":1,
+    "Monetary":1710.39,
+    "Segmento_KM":"Clientes Leales"
+  },
+  {
+    "CustomerID":12406,
+    "Recency":22,
+    "Frequency":5,
+    "Monetary":6390.36,
+    "Segmento_KM":"VIP \/ Campeones"
+  },
+  {
+    "CustomerID":12407,
+    "Recency":50,
+    "Frequency":5,
+    "Monetary":1708.12,
+    "Segmento_KM":"Clientes Leales"
+  },
+  {
+    "CustomerID":12408,
+    "Recency":33,
+    "Frequency":8,
+    "Monetary":4340.77,
+    "Segmento_KM":"VIP \/ Campeones"
+  },
+  {
+    "CustomerID":12409,
+    "Recency":79,
+    "Frequency":7,
+    "Monetary":23419.29,
+    "Segmento_KM":"VIP \/ Campeones"
+  },
+  {
+    "CustomerID":12410,
+    "Recency":309,
+    "Frequency":3,
+    "Monetary":1013.71,
+    "Segmento_KM":"Clientes Leales"
+  },
+  {
+    "CustomerID":12411,
+    "Recency":410,
+    "Frequency":1,
+    "Monetary":346.9,
+    "Segmento_KM":"Inactivos"
+  },
+  {
+    "CustomerID":12412,
+    "Recency":75,
+    "Frequency":6,
+    "Monetary":2596.93,
+    "Segmento_KM":"Clientes Leales"
+  },
+  {
+    "CustomerID":12413,
+    "Recency":67,
+    "Frequency":4,
+    "Monetary":999.45,
+    "Segmento_KM":"Clientes Leales"
+  },
+  {
+    "CustomerID":12414,
+    "Recency":217,
+    "Frequency":6,
+    "Monetary":952.41,
+    "Segmento_KM":"Clientes Leales"
+  },
+  {
+    "CustomerID":12415,
+    "Recency":24,
+    "Frequency":28,
+    "Monetary":144458.37,
+    "Segmento_KM":"VIP \/ Campeones"
+  },
+  {
+    "CustomerID":12416,
+    "Recency":657,
+    "Frequency":1,
+    "Monetary":202.56,
+    "Segmento_KM":"Inactivos"
+  },
+  {
+    "CustomerID":12417,
+    "Recency":3,
+    "Frequency":20,
+    "Monetary":6816.91,
+    "Segmento_KM":"VIP \/ Campeones"
+  },
+  {
+    "CustomerID":12418,
+    "Recency":113,
+    "Frequency":4,
+    "Monetary":2021.2,
+    "Segmento_KM":"Clientes Leales"
+  },
+  {
+    "CustomerID":12419,
+    "Recency":386,
+    "Frequency":2,
+    "Monetary":503.01,
+    "Segmento_KM":"Inactivos"
+  },
+  {
+    "CustomerID":12420,
+    "Recency":64,
+    "Frequency":1,
+    "Monetary":600.39,
+    "Segmento_KM":"En Riesgo \/ Prometedores"
+  },
+  {
+    "CustomerID":12421,
+    "Recency":16,
+    "Frequency":6,
+    "Monetary":1098.6,
+    "Segmento_KM":"En Riesgo \/ Prometedores"
+  },
+  {
+    "CustomerID":12422,
+    "Recency":96,
+    "Frequency":17,
+    "Monetary":5231.8,
+    "Segmento_KM":"VIP \/ Campeones"
+  },
+  {
+    "CustomerID":12423,
+    "Recency":1,
+    "Frequency":10,
+    "Monetary":2622.39,
+    "Segmento_KM":"VIP \/ Campeones"
+  },
+  {
+    "CustomerID":12424,
+    "Recency":163,
+    "Frequency":4,
+    "Monetary":3340.03,
+    "Segmento_KM":"Clientes Leales"
+  },
+  {
+    "CustomerID":12425,
+    "Recency":78,
+    "Frequency":2,
+    "Monetary":1741.41,
+    "Segmento_KM":"Clientes Leales"
+  },
+  {
+    "CustomerID":12426,
+    "Recency":195,
+    "Frequency":2,
+    "Monetary":1345.21,
+    "Segmento_KM":"Clientes Leales"
+  },
+  {
+    "CustomerID":12427,
+    "Recency":22,
+    "Frequency":3,
+    "Monetary":1129.3,
+    "Segmento_KM":"En Riesgo \/ Prometedores"
+  },
+  {
+    "CustomerID":12428,
+    "Recency":26,
+    "Frequency":9,
+    "Monetary":7956.46,
+    "Segmento_KM":"VIP \/ Campeones"
+  },
+  {
+    "CustomerID":12429,
+    "Recency":9,
+    "Frequency":8,
+    "Monetary":7485.91,
+    "Segmento_KM":"VIP \/ Campeones"
+  },
+  {
+    "CustomerID":12430,
+    "Recency":43,
+    "Frequency":1,
+    "Monetary":256.4,
+    "Segmento_KM":"En Riesgo \/ Prometedores"
+  },
+  {
+    "CustomerID":12431,
+    "Recency":36,
+    "Frequency":27,
+    "Monetary":10857.97,
+    "Segmento_KM":"VIP \/ Campeones"
+  },
+  {
+    "CustomerID":12432,
+    "Recency":43,
+    "Frequency":5,
+    "Monetary":5059.32,
+    "Segmento_KM":"Clientes Leales"
+  },
+  {
+    "CustomerID":12433,
+    "Recency":1,
+    "Frequency":10,
+    "Monetary":20581.26,
+    "Segmento_KM":"VIP \/ Campeones"
+  },
+  {
+    "CustomerID":12434,
+    "Recency":85,
+    "Frequency":3,
+    "Monetary":1103.43,
+    "Segmento_KM":"Clientes Leales"
+  },
+  {
+    "CustomerID":12435,
+    "Recency":80,
+    "Frequency":6,
+    "Monetary":13925.93,
+    "Segmento_KM":"VIP \/ Campeones"
+  },
+  {
+    "CustomerID":12436,
+    "Recency":100,
+    "Frequency":1,
+    "Monetary":509.01,
+    "Segmento_KM":"Inactivos"
+  },
+  {
+    "CustomerID":12437,
+    "Recency":2,
+    "Frequency":39,
+    "Monetary":12683.4,
+    "Segmento_KM":"VIP \/ Campeones"
+  },
+  {
+    "CustomerID":12438,
+    "Recency":14,
+    "Frequency":2,
+    "Monetary":2906.85,
+    "Segmento_KM":"En Riesgo \/ Prometedores"
+  },
+  {
+    "CustomerID":12439,
+    "Recency":683,
+    "Frequency":2,
+    "Monetary":1158.18,
+    "Segmento_KM":"Clientes Leales"
+  },
+  {
+    "CustomerID":12440,
+    "Recency":462,
+    "Frequency":2,
+    "Monetary":859.2,
+    "Segmento_KM":"Inactivos"
+  },
+  {
+    "CustomerID":12441,
+    "Recency":367,
+    "Frequency":1,
+    "Monetary":347.1,
+    "Segmento_KM":"Inactivos"
+  },
+  {
+    "CustomerID":12442,
+    "Recency":3,
+    "Frequency":1,
+    "Monetary":172.06,
+    "Segmento_KM":"En Riesgo \/ Prometedores"
+  },
+  {
+    "CustomerID":12443,
+    "Recency":732,
+    "Frequency":1,
+    "Monetary":485.31,
+    "Segmento_KM":"Inactivos"
+  },
+  {
+    "CustomerID":12444,
+    "Recency":21,
+    "Frequency":5,
+    "Monetary":5005.46,
+    "Segmento_KM":"VIP \/ Campeones"
+  },
+  {
+    "CustomerID":12445,
+    "Recency":22,
+    "Frequency":2,
+    "Monetary":434.98,
+    "Segmento_KM":"En Riesgo \/ Prometedores"
+  },
+  {
+    "CustomerID":12446,
+    "Recency":58,
+    "Frequency":1,
+    "Monetary":1002.31,
+    "Segmento_KM":"En Riesgo \/ Prometedores"
+  }
+]

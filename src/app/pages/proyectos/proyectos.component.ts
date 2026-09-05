@@ -49,6 +49,13 @@ export class ProyectosComponent {
       descripcion: 'Sistema para trazabilidad y gestión de citas de odontología de la clinica',
       tecnologias: ['Spring Boot', 'MySQL'],
       repositorio: 'https://github.com/JuanMorenoC/clinica-alameda-backend'
+    },
+    {
+      nombre: 'SEGMENTACIÓN ESTRATÉGICA DE CLIENTES EN E-COMMERCE MEDIANTE RFM Y K-MEANS',
+      descripcion: 'Análisis integral de más de 800,000 transacciones para clusterizar la base de clientes en segmentos de valor (VIP, Leales, En Riesgo e Inactivos). Se implementaron transformaciones logarítmicas, estandarización de datos y el algoritmo K-Means validado mediante el método del codo. El dashboard permite consultar las métricas consolidadas y explorar el comportamiento de compra.',
+      tecnologias: ['Python', 'Pandas', 'Scikit-Learn', 'K-Means', 'RFM', 'Angular'],
+      repositorio: 'https://github.com/JuanMorenoC/online_retail.git',
+      demo: '/segmentacion-rfm'
     }
   ];
 }
