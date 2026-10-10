@@ -1,0 +1,104 @@
+$color-primary: #4f46e5;
+$color-primary-hover: #4338ca;
+$color-surface: #ffffff;
+$color-border: #e5e7eb;
+$color-text: #111827;
+$color-muted: #6b7280;
+$radius: 10px;
+
+:host {
+  display: block;
+}
+
+.neuro {
+  max-width: 520px;
+  padding: 1.25rem;
+  background: $color-surface;
+  border: 1px solid $color-border;
+  border-radius: $radius;
+  color: $color-text;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  &__title {
+    margin: 0;
+    font-size: 1.125rem;
+  }
+
+  &__actions {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  &__stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.btn {
+  padding: 0.45rem 0.9rem;
+  font: inherit;
+  color: $color-text;
+  background: transparent;
+  border: 1px solid $color-border;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.15s, border-color 0.15s;
+
+  &:hover {
+    background: #f3f4f6;
+  }
+
+  &--primary {
+    color: #fff;
+    background: $color-primary;
+    border-color: $color-primary;
+
+    &:hover {
+      background: $color-primary-hover;
+    }
+  }
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid $color-border;
+  border-radius: 8px;
+
+  &__label {
+    font-size: 0.75rem;
+    color: $color-muted;
+  }
+
+  &__value {
+    font-size: 1.15rem;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.progress {
+  height: 8px;
+  overflow: hidden;
+  background: #f3f4f6;
+  border-radius: 999px;
+
+  &__bar {
+    height: 100%;
+    background: $color-primary;
+    border-radius: inherit;
+    transition: width 0.2s ease-out;
+  }
+}

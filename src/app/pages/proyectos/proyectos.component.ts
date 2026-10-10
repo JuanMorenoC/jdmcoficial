@@ -56,6 +56,13 @@ export class ProyectosComponent {
       tecnologias: ['Python', 'Pandas', 'Scikit-Learn', 'K-Means', 'RFM', 'Angular'],
       repositorio: 'https://github.com/JuanMorenoC/online_retail.git',
       demo: '/segmentacion-rfm'
+    },
+    {
+      nombre: 'Simulación Autonoma',
+      descripcion: 'Videojuego sobre simulación autonoma de agentes que por medio de redesneuronales toman ciertos comportamientos',
+      tecnologias: ['Typescript', 'Redes Neuronales', 'Angular'],
+      repositorio: 'https://github.com/JuanMorenoC/online_retail.git',
+      demo: '/neuroevolution'
     }
   ];
 }
